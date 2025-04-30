@@ -60,9 +60,9 @@ h2{
     
 }
 .dd{
-    max-height: 500px;
+    max-height: 600px;
     overflow-y:scroll;
-    max-width: 350px;
+    max-width: 360px;
     overflow-x:scroll;
     /* border:2px solid black; */
     margin:15px;
