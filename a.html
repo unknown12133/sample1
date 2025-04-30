@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div class="a" id="a">
+         <h2>user details:</h2>
+        <table class="c">
+            <tr>
+                <td>UID</td>
+                <td style="border-top:none; border-right:none;">9DEH4355VD</td>
+            </tr>
+            <tr>
+                <td>NAME</td>
+                <td >SAI KUMAR BATTU</td>
+            </tr>
+            <tr>
+                <td>FATHER NAME</td>
+                <td>SAI KRISHNA KUMAR</td>
+            </tr>
+            <tr>
+                <td>MOBILE NO</td>
+                <td>9823453457</td>
+            </tr>
+            <tr>
+                <td style="border-bottom:none; border-left:none;">AMOUNT</td>
+                <td>350</td>
+            </tr>
+        </table>
+        <button type="button" onclick="openme()" class="d" name="submit2">history</button>
+
+    </div >
+    <form action="" method="get">
+        <div class="b" id="b">
+            <h2>purchase history</h2><br>
+            <table>
+                <tr>
+                    <th>S.NO</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                    <th>DATE</th>
+                    <th>TIME</th>
+                </tr>
+                
+            </table>
+        </div>
+    </form>
+     <script>
+        function openme(){
+        x=document.getElementById("a").style.display="none";
+        document.getElementById("b").style.display="block";
+    }
+     document.getElementById("b").style.display="none";
+     </script>
+</body>
+</html>
